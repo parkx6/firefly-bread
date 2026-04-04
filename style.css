@@ -75,7 +75,9 @@ main section {
 }
 
 #hero {
-    background: linear-gradient(135deg, #fff9c4 0%, #fdfaf5 100%);
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('반딧불이빵 홍보물.png');
+    background-size: cover;
+    background-position: center;
     position: relative;
     overflow: hidden;
 }
