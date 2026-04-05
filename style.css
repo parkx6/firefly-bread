@@ -229,6 +229,16 @@ h2 {
     cursor: pointer;
 }
 
+#comments {
+    text-align: left;
+    display: block;
+    min-height: auto;
+}
+
+#comments h2 {
+    text-align: center;
+}
+
 footer {
     padding: 2rem;
     text-align: center;
