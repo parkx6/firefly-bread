@@ -291,11 +291,26 @@ footer {
     50% { opacity: 1; }
 }
 
+.blog-post, .recipe-card {
+    background: var(--white-soft);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+    border-left: 5px solid var(--secondary-glow);
+    text-align: left;
+}
+
+.recipe-card h4 {
+    color: var(--navy-dark);
+    margin-bottom: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline !important;
+}
+
 @media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    nav ul {
-        display: none; /* Hide nav on mobile for simplicity */
+    .contact-wrapper {
+        grid-template-columns: 1fr;
     }
 }
